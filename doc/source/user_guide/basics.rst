@@ -2077,7 +2077,8 @@ documentation sections for more on each type.
 +-------------------------------------------------+---------------------------+--------------------+-------------------------------+----------------------------------------+
 | :ref:`Boolean (with NA) <api.arrays.bool>`      | :class:`BooleanDtype`     | :class:`bool`      | :class:`arrays.BooleanArray`  | ``'boolean'``                          |
 +-------------------------------------------------+---------------------------+--------------------+-------------------------------+----------------------------------------+
-
+| :ref: `nullable float <float_na>`               | :class:Float64Dytpe`.     | (none)             | :class:`arrays.FloatArray`    | ``'float16'`,``'float32'``, ``'float64'``|
++-------------------------------------------------+---------------------------+--------------------+-------------------------------+----------------------------------------+ 
 pandas has two ways to store strings.
 
 1. ``object`` dtype, which can hold any Python object, including strings.
